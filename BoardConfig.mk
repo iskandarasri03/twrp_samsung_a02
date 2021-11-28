@@ -103,17 +103,16 @@ PLATFORM_VERSION := 16.1.0
 
 # Recovery
 RECOVERY_SDCARD_ON_DATA := true
-LZMA_RAMDISK_TARGETS := recovery
 
-# TWRP Configuration
-TW_THEME := portrait_hdpi
-TW_EXTRA_LANGUAGES := true
-TW_SCREEN_BLANK_ON_BOOT := true
-TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_USE_TOOLBOX := true
-TW_THEME := portrait_hdpi
-TW_EXTRA_LANGUAGES := true
-TW_SCREEN_BLANK_ON_BOOT := true
-TW_INPUT_BLACKLIST := "hbtp_vm"
-TARGET_USES_MKE2FS := true
-TW_EXCLUDE_TWRPAPP := true
+# PBRP Configuration
+PB_GO := true
+PB_DISABLE_DEFAULT_DM_VERITY := true
+
+
+
+
+
+
+
+
+
