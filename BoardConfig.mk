@@ -122,9 +122,17 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 
-# PBRP Configuration
-PB_DISABLE_DEFAULT_DM_VERITY := true
-
+# SHRP Configuration
+SHRP_DEVICE_CODE := a02
+SHRP_PATH := device/samsung/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := iskandarasri03
+SHRP_DEVICE_TYPE := A/B
+SHRP_REC := /dev/block/by-name/recovery
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
 
 
 
