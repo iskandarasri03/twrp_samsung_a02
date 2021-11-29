@@ -107,6 +107,7 @@ PLATFORM_VERSION := 16.1.0
 
 # Recovery
 RECOVERY_SDCARD_ON_DATA := true
+LZMA_RAMDISK_TARGETS := recovery
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
