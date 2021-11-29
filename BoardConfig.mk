@@ -122,6 +122,7 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 
 # PBRP Configuration
+PB_GO := true
 PB_DISABLE_DEFAULT_DM_VERITY := true
 
 
