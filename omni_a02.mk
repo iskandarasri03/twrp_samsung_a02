@@ -14,22 +14,16 @@
 # limitations under the License.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-
-# Inherit some common Omni stuff.
+# Inherit stuff
+$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
-
-# Inherit from a02 Device
-$(call inherit-product, device/samsung/a02/device.mk)
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a02
 PRODUCT_NAME := omni_a02
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := Samsung Galaxy A02
+PRODUCT_MODEL := SM-A022F
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_RELEASE_NAME := Samsung Galaxy A02
