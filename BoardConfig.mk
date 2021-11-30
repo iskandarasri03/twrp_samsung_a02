@@ -127,13 +127,15 @@ TW_EXCLUDE_TWRPAPP := true
 SHRP_DEVICE_CODE := a02
 SHRP_PATH := device/samsung/$(SHRP_DEVICE_CODE)
 SHRP_MAINTAINER := iskandarasri03
-SHRP_DEVICE_TYPE := A/B
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC_TYPE := SAR
 SHRP_REC := /dev/block/by-name/recovery
 SHRP_EDL_MODE := 1
 SHRP_INTERNAL := /sdcard
 SHRP_EXTERNAL := /external_sd
 SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
+SHRP_DARK := true
 
 
 
