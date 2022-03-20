@@ -18,4 +18,4 @@ PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/twrp_a02.mk
 
 COMMON_LUNCH_CHOICES := \
-	_a02-eng
+     twrp_a02-eng
